@@ -64,7 +64,7 @@ class App extends Component {
       <div className="App">
         <h1>hello from react</h1>
 
-        {/* This is the form with that will trigger the submit event listenter */}
+        {/* This is the form that will trigger the submit event listenter */}
         {/* This form is taken directly from bootstrap */}
         <form onSubmit={this.handleSubmit}>
           <div classname="form-group">
